@@ -1,0 +1,57 @@
+.list-con{
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.list-con h3{
+    text-align: center;
+    font-weight: 900;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 10px;
+}
+.student-list
+{
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 300px;
+    backdrop-filter: blur(30px);
+}
+.h-list h1
+{
+    letter-spacing: 5px;
+    color: #000;
+}
+.h-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.h-list button{
+    background: red;
+    border-radius: 10px;
+}
+#h3-l{
+    margin-top: 10px;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    color: aliceblue;
+    background: #820dff;
+    border-radius: 15px;
+}
+.a3
+{
+    text-decoration: none;
+}
+
+
+

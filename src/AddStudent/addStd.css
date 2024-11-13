@@ -1,0 +1,106 @@
+.addStd-container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.add-h1{
+    text-align: center;
+    font-weight: 600;
+    color: aliceblue;
+    letter-spacing: 5px;
+}
+.add-input{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.add-input:focus
+{
+    box-shadow: 0 0 10px rgb(52, 249, 52),0 0 15px rgb(52, 252, 52),0 0 20px rgb(53, 255, 53);
+    transition: all 0.5s ease-in-out;
+}
+input::placeholder{
+    text-align: center;
+}
+.add-button{
+    border: none;
+    outline: none;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: #820dff;
+}
+.add-list h3{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-weight: 900;
+    color: #000;
+}
+.add-list ul{
+    position: absolute;
+    top: 240px;
+    left: 365px;
+    list-style: none;
+    color: aliceblue;
+}
+.add-list li{
+    margin-top: 10px;
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    width: 125%;
+    height: 30px;
+    border-radius: 10px;
+    letter-spacing: 10px;
+}
+.add-list
+{
+    margin-top: 20px;
+    margin-right: 0px;
+    border-radius: 25px;
+    width: 50%;
+    height: 300px;
+    border: 1px double black;
+    background: rgba(255,255,255,0.5);
+    overflow:hidden;
+    scrollbar-width: none;
+}
+.h3-l{
+    margin-top: 10px;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    color: aliceblue;
+    background: #820dff;
+    border-radius: 15px;
+}
+#a1{
+    margin-top: 200px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.success-add
+{
+    margin-top: 60px;
+    background: white;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.success-add h3{
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}

@@ -1,0 +1,229 @@
+body{
+    background: url('https://wallpaperaccess.com/full/5487841.jpg');
+}
+.home-body
+{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0, 0,0, 0.5);
+}
+i{
+    color: #fff;
+    cursor: pointer;
+}
+header .logo{
+    flex:1;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+header .logo h1{
+    font-size: 20px;
+}
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+.search-box input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    border-radius: 30px;
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+}
+.search-box button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(0.9);
+    background: rgba(0,0,255,.50);
+}
+header ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+header ul li #n:hover{
+    border-bottom: 4px solid rgb(159, 135, 96);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(159, 135, 96);
+    transition: .3s ease;
+}
+#face:hover{
+    text-shadow: 0 0 10px rgb(64, 64, 229),0 0 20px rgb(64, 64, 229),0 0 50px rgb(64, 64, 229);
+    border-bottom: 4px solid rgb(64, 64, 229);
+    transition: .3s ease;
+}
+#face:hover i{
+    color: rgb(64, 64, 229);
+}
+#whats:hover{
+    text-shadow: 0 0 10px #07fd17,0 0 20px #07fd17,0 0 50px #07fd17;
+    border-bottom: 4px solid #07fd17;
+    transition: .3s ease;
+}
+#whats:hover i{
+    color: #07fd17;
+}
+#icons p{
+    text-decoration: none;
+}
+Link{
+    text-decoration: none;
+}
+#icons{
+    text-decoration: none;
+}
+header .menu{
+    font-size: 2.5rem;
+    display: none;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    background: #000;
+    width: 15%;
+    height: 100vh;
+}
+.navbar ul{
+    margin-top: 80px;
+    display: flex;
+    margin-right:10px;
+   gap: 10px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.navbar ul li{
+    list-style: none;
+    padding-left: -10px;
+    border-radius: 10px;
+}
+.navbar ul li #icons{
+    padding: 10px ;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    transition: all ease-in 0.3s;
+    border-radius: 10px;
+}
+.navbar ul li #icons:hover{
+    width: 170px;
+    cursor: pointer;
+    background: grey;
+}
+.login-btn{
+    background-color: #532dac;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.boxes{
+    display: flex;
+    top: 130px;
+   position: absolute;
+   left: 250px;
+   gap: 80px;
+   justify-content: space-evenly;
+}
+
+.box{
+    color: #000;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px #000,0 0 30px #000,0 0 50px #000;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    transition: all ease .2s;
+}
+.box p{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(248, 252, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 10px;
+    font-size: 26px;
+    text-shadow: 0 0 10px #ff7700;
+}
+.box img{
+    border-radius: 20px;
+    width: 70px;
+    margin-left:67px;
+}
+.box:hover{
+    transform: scale(1.08);
+}
+@media(max-width:1000px)
+{
+    header
+    {
+        height: 70px;
+    }
+    header .logo h1{
+        font-size: 15px;
+
+    }
+    header ul li{
+        font-size: 12px;
+    
+    }
+    header ul li a{
+        padding: 50px 5px;
+    }
+    header .search-box input{
+        width: 80px;
+        height: 30px;
+    }
+    header .search-box button{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+@media(max-width:600px)
+{
+    header .logo{
+        font-size: 10px;
+        margin-left: 8px;
+    }
+}

@@ -1,0 +1,57 @@
+.forgot-body
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,#e2e2e2,#c9ddff);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgot-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    background:linear-gradient(to left,#e2e2e2,#c9ddff);
+    box-shadow: 3px 3px 10px black,0 0 0px black;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.forgot-data, .forgot-new
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.forgot-data h3{
+    text-align: center;
+}
+.forgot-data input{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.forgot-data button
+{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgb(54, 220, 54);
+    border-radius: 15px;
+}
+.forgot-data p{
+    color:red;
+    font-weight: 600;
+    font-style: italic;
+}

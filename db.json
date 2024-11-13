@@ -1,0 +1,20 @@
+{
+  "User": [
+    {
+      "id": "8dd3",
+      "email": "727723eucs214@skcet.ac.in",
+      "password": "1234567"
+    },
+    {
+      "id": "bdfa",
+      "email": "727723eucs212@skcet.ac.in",
+      "password": "123456"
+    },
+    {
+      "id": "5c7b",
+      "email": "rokhith",
+      "password": "123123"
+    }
+  ],
+  "Student": []
+}
